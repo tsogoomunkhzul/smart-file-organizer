@@ -1,0 +1,22 @@
+# Python virtual environment
+.venv/
+
+# Python cache files
+__pycache__/
+*.py[cod]
+
+# Environment variables and secrets
+.env
+.env.*
+
+# Editor and operating system files
+.vscode/
+.DS_Store
+
+# Generated files
+Organized/*
+!Organized/.gitkeep
+
+# Ignore test files in the watched folder
+watch_folder/*
+!watch_folder/.gitkeep
